@@ -247,8 +247,3 @@ var ViewModel = function() {
     };
 
 };
-
-// 百度地图api加载失败时的回调函数
-var baiduError = function() {
-    window.alert("百度地图加载失败，请稍后重试");
-};
